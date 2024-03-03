@@ -5,8 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1 class="text-7xl">miro website</h1>
+<body class="max-w-screen-2xl mx-auto">
+    <nav class="mx-8 py-5 border-b border-[#F0F0F0]">
+        <div>
+            <div class="flex items-center justify-between">
+                <div class="flex items-end">
+                    <img src="/Public/logo.png" alt="logo" class="mr-7">
+                    <ul class="flex items-center text-base font-normal text-[#050038] leading-6 inter-normal">
+                        <li>
+                            <a class="mr-2">Product</a>
+                            <span><i class="fa-solid fa-angle-down mr-2"></i></span>
+                        </li>
+                        <li>
+                            <a class="mr-2">Solutions</a>
+                            <span><i class="fa-solid fa-angle-down mr-2"></i></span>
+                        </li>
+                        <li>
+                            <a class="mr-2">Resources</a>
+                            <span><i class="fa-solid fa-angle-down mr-2"></i></span>
+                        </li>
+                        <li>
+                            <a class="mr-5">Enterprise</a>
+                        </li>
+                        <li>
+                            <a>Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="flex items-center">
+                        <img src="./Public/frame.png" alt="frame" class="mr-2">
+                        <ul class="flex inter-normal text-base font-normal text-[#050038] leading-6">
+                            <li>
+                                <a class="mr-4">EN</a>
+                            </li>
+                            <li>
+                                <a class="mr-4">Contact Sales</a>
+                            </li>
+                            <li>
+                                <a class="mr-4">Login</a>
+                            </li>
+                        </ul>
+                        <button class="bg-[#4262FF] text-white px-6 py-4 rounded-full">Sign up free <i class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="mt-16 mx-40">
+        <div class="flex gap-16">
+            <div>
+                <h1 class="inter-bold text-5xl text-[#050038] pb-4">Take ideas from<br> better to best</h1>
+                <p class="inter-normal text-[rgba(5,0,56,0.72)] text-lg leading-6 pb-8">Miro is your team's visual platform to connect,<br> collaborate, and create — together.</p>
+                <input type="text" placeholder="Enter your work email" class="w-[440px] h-12 mb-3 block rounded-full pl-6 text-[#5F5C80] text-lg inter-normal border border-[9B99AF]">
+                <button class="bg-[#4262FF] text-white w-[440px] py-4 rounded-full">Sign up free <i class="fa-solid fa-arrow-right-long"></i></button>
+                <p class="pt-2 text-[rgba(5,0,56,0.4)] text-[14px] leading-5 inter-normal pb-10">Collaborate with your team within minutes</p>
+                <img src="./Public/star.png" alt="star">
+            </div>
+            <div>
+                <img src="./Public/headerimage.png" alt="header">
+            </div>
+        </div>
+    </header>
 </body>
 </html>
