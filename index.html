@@ -13,10 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="max-w-screen-2xl mx-auto">
+<body class="md:max-w-screen-xl lg:max-w-screen-2xl mx-auto">
     <nav class="mx-8 py-5 border-b border-[#F0F0F0]">
         <div>
-            <div class="flex items-center justify-between">
+            <div class="flex flex-col md:flex-col lg:flex-row items-center justify-between">
                 <div class="flex items-end">
                     <img src="/Public/logo.png" alt="logo" class="mr-7">
                     <ul class="flex items-center text-base font-normal text-[#050038] leading-6 inter-normal">
@@ -60,8 +60,8 @@
             </div>
         </div>
     </nav>
-    <header class="mt-16 mx-40">
-        <div class="flex gap-16">
+    <header class="mt-4 mx-16 md:mx-40 lg:mx-40">
+        <div class="flex flex-col md:flex-col lg:flex-row gap-16">
             <div>
                 <h1 class="inter-bold text-5xl text-[#050038] pb-4">Take ideas from<br> better to best</h1>
                 <p class="inter-normal text-[rgba(5,0,56,0.72)] text-lg leading-6 pb-8">Miro is your team's visual platform to connect,<br> collaborate, and create — together.</p>
@@ -79,7 +79,7 @@
         <div>
             <p class="inter-normal text-lg text-[rgba(5,0,56,0.6)] text-center mb-12 pt-12">Trusted by 45M+ users</p>
         </div>
-        <div class="flex justify-center gap-16">
+        <div class="flex flex-col md:flex-col lg:flex-row justify-center gap-16">
             <img src="./Public/walmart.png" alt="walmart">
             <img src="./Public/cisco.png" alt="cisko">
             <img src="./Public/volvo.png" alt="volvo">
@@ -87,14 +87,14 @@
             <img src="./Public/okta.png" alt="okta">
         </div>
     </section>
-    <section class="mt-16 pt-16 mx-40">
+    <section class="mt-16 pt-16 mx-4 md:mx-40 lg:mx-40">
         <div class="pt-16 relative">
-            <h3 class="bg-[#FFD02F] inline absolute top-4 right-72 text-xs rotate-[10deg] text-[#090909] inter-bold rounded-full px-3 py-1">YOUR IDEA STARTS HERE</h3>
+            <h3 class="bg-[#FFD02F] inline absolute top-1 right-4 md:top-2 md:right-8 lg:top-4 lg:right-72 text-xs rotate-[10deg] text-[#090909] inter-bold rounded-full px-1 py-1 md:px-1 md:py-1 lg:px-3 lg:py-1">YOUR IDEA STARTS HERE</h3>
             <div>
                 <h1 class="inter-bold text-5xl text-[#050038] text-center pb-9">Collaborate without<br> constraints</h1>
             </div>
         </div>
-        <div class="flex gap-16">
+        <div class="flex flex-col md:flex-col lg:flex-row gap-16">
             <div>
                 <h3 class="inter-bold text-2xl text-[#050038]">Free forever</h3>
                 <p class="text-[rgba(5,0,56,0.6)] inter-normal text-lg pt-8">Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates. Signing up with your work email lets you bring in your team faster. See our<br> <span class="text-[#4262FF]">pricing plans</span> for more features.</p>
@@ -110,6 +110,162 @@
         </div>
         <div class="text-center">
             <button class="bg-[#4262FF] text-white px-6 py-3 rounded-full mt-20">Sign up free <i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+    </section>
+    <section class="mt-24 px-2 md:px-4 lg:px-40">   
+        <div class="flex flex-col md:flex-col lg:flex-row items-center gap-4 md:gap-8 lg:gap-28">
+            <div class="w-1/2">
+                <h1 class="inter-bold text-5xl text-[#050038] pb-4">Work together,<br> wherever you work</h1>
+                <p class="text-[rgba(5,0,56,0.6)] inter-normal text-lg">In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are.</p>
+                <button class="pt-10 text-[#4262FF] underline">Learn more <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+            <div class="w-1/2">
+                <img src="./Public/work.png" alt="work">
+            </div>
+        </div>
+    </section>
+    <section class="mt-24 px-2 md:px-4 lg:px-40">   
+        <div class="flex flex-col md:flex-col lg:flex-row items-center gap-4 md:gap-8 lg:gap-28">
+            <div class="w-1/2">
+                <img src="./Public/circle.png" alt="work">
+            </div>
+            <div class="w-1/2">
+                <h1 class="inter-bold text-5xl text-[#050038] pb-4">Connect<br> your tools,<br> close your tabs</h1>
+                <p class="text-[rgba(5,0,56,0.6)] inter-normal text-lg">Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has 100+ integrations with tools you already use and love.</p>
+                <button class="pt-10 text-[#4262FF] underline">Learn more <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="mt-24 px-4 md:px-8 lg:px-40">
+        <div>
+            <img src="./Public/section.png" alt="section" class="mx-auto">
+        </div>
+    </section>
+    <section class="mt-24 px-4 md:px-8 lg:px-40">
+        <h1 class="inter-bold text-5xl text-[#050038] pb-8">Built for the way you work</h1>
+        <ul class="flex flex-wrap gap-16">
+            <li>
+                <a class="inter-normal text-sm border bg-[#F1F3FD] border-[#F2F2F2] rounded-3xl px-4 py-3">Brainstorming</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Diagramming</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Meetings & Workshops</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Scrum Events</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Mapping</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Research & Design</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Strategic Planning</a>
+            </li>
+        </ul>
+        <div class="flex flex-col md:flex-col lg:flex-row gap-10 mt-14">
+            <div class="w-2/6 pt-6">
+                <h2 class="inter-normal text-lg text-[#050038] pb-6">Brainstorming</h3>
+                <p class="pb-9 inter-normal text-lg text-[rgba(5,0,56,0.7)]">Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on.</p> 
+                <button class="pt-10 text-[#4262FF] underline">Learn more <i class="fa-solid fa-arrow-right-long"></i></button>   
+            </div>
+            <div class="w-2/3">
+                <img src="./Public/brainstorm.png" alt="brainstorm">
+            </div>
+        </div>
+    </section>
+    <section class="mt-24 px-4 md:px-8 lg:px-40">
+        <h1 class="inter-bold text-5xl text-[#050038] pb-8">Built for all kinds of teams</h1>
+        <ul class="flex flex-wrap gap-16">
+            <li>
+                <a class="inter-normal text-sm border bg-[#F1F3FD] border-[#F2F2F2] rounded-3xl px-4 py-3">UX & Design</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Marketing</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Product Management</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Engineering</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Consultants</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Agile Coaches</a>
+            </li>
+            <li>
+                <a class="inter-normal text-sm">Sales</a>
+            </li>
+        </ul>
+        <div class="flex flex-col md:flex-col lg:flex-row gap-10 mt-14">
+            <div class="w-2/6 pt-6">
+                <p class="inter-normal text-lg text-[rgba(5,0,56,0.6)]"><i class="fa-solid fa-check mr-3"></i>Build low-fi wireframes</p>
+                <p class="inter-normal text-lg text-[rgba(5,0,56,0.6)]"><i class="fa-solid fa-check mr-3"></i>Involve stakeholders in the<br> design process</p>
+                <p class="inter-normal text-lg text-[rgba(5,0,56,0.6)]"><i class="fa-solid fa-check mr-3"></i>Run engaging design<br> workshops</p>
+                <button class="pt-10 text-[#4262FF] underline">Learn more <i class="fa-solid fa-arrow-right-long"></i></button>
+                <p class="inter-normal text-lg text-[rgba(5,0,56,0.6)] pt-16 pb-3">Integrate your favorite tools</p> 
+                <div class="flex gap-8">
+                    <img src="./Public/Vector.png" alt="">
+                    <img src="./Public/Group1.png" alt="">
+                    <img src="./Public/Vector4.png" alt="">
+                    <img src="./Public/Vector3.png" alt="">
+                </div> 
+            </div>
+            <div class="w-2/3">
+                <img src="./Public/uxdesign.png" alt="uxdesign">
+            </div>
+        </div>
+    </section>
+    <section class="mt-24 px-4 md:px-8 lg:px-40">
+        <div class="text-center pb-20">
+            <h1 class="inter-bold text-5xl text-[#050038] pb-6 text-center">Loved by the world's best teams</h1>
+            <button class="border border-[#4262FF] text-[#4262FF] rounded-full py-3 px-9">See all customer stories <i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+        <div class="flex gap-20">
+            <div class="w-1/3">
+                <div class="h-72">
+                    <img src="./Public/div1.png" alt="">
+                    <p class="inter-normal text-lg text-[rgba(5,0,56,0.6)] pt-8">“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”</p>
+                </div>
+                <div class="flex items-center gap-3 pt-14">
+                    <img src="./Public/author1.png" alt="">
+                    <div>
+                        <p class="inter-normal text-sm text-[rgba(5,0,56,0.6)]">Roxanne Mustafa</p>
+                        <p class="inter-normal text-sm text-[rgba(5,0,56,0.6)]">Design Team Lead at VMware</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/3">
+                <div class="h-72">
+                    <img src="./Public/div2.png" alt="">
+                    <p class="inter-normal text-lg text-[rgba(5,0,56,0.6)] pt-8">“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”</p>
+                </div>
+                <div class="flex items-center gap-3 pt-14">
+                    <img src="./Public/author2.png" alt="">
+                    <div>
+                        <p class="inter-normal text-sm text-[rgba(5,0,56,0.6)]">Jane Ashley</p>
+                        <p class="inter-normal text-sm text-[rgba(5,0,56,0.6)]">Head of Design at DocuSign</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/3">
+                <div class="h-72">
+                    <img src="./Public/div3.png" alt="">
+                    <p class="inter-normal text-lg text-[rgba(5,0,56,0.6)] pt-8">“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”</p>
+                </div>
+                <div class="flex items-center gap-3 pt-14">
+                    <img src="./Public/author3.png" alt="">
+                    <div>
+                        <p class="inter-normal text-sm text-[rgba(5,0,56,0.6)]">Laura Baird</p>
+                        <p class="inter-normal text-sm text-[rgba(5,0,56,0.6)]">Associate Design Director at frog</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
